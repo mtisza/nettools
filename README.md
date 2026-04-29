@@ -14,6 +14,7 @@ A Docker container image packed with common network diagnostic and utility tools
 | Bandwidth / perf | `iftop`, `iperf3` |
 | Capture | `tcpdump` |
 | Discovery | `lldpd` |
+| RDMA / InfiniBand | `rdma-core`, `ibverbs-utils` (ibv_devinfo, ibv_rc_pingpong), `infiniband-diags` (ibstat, ibping, ibroute), `perftest` (ib_send_bw, ib_read_lat, …) |
 | Shell / scripting | `tmux`, `vim`, `nano`, `jq`, `bc`, `python3`, `sqlite3`, `htop` |
 
 ## Quick start

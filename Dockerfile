@@ -32,6 +32,10 @@ RUN export DEBIAN_FRONTEND=noninteractive \
         whois \
         sqlite3 \
         lldpd \
+        rdma-core \
+        ibverbs-utils \
+        infiniband-diags \
+        perftest \
     && apt -y autoremove \
     && apt clean all \
     && rm -rf /var/lib/apt/lists/*
